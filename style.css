@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  color: #747474;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+header nav img {
+  width: 268px;
+  height: 33px;
+  cursor: pointer;
+}
+header nav {
+  width: 80%;
+
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+header nav ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+.colorGreen {
+  color: #00b39b;
+}
+header nav ul li a:hover {
+  color: #00b39b;
+}
+header {
+  border-bottom: 1px solid rgb(116, 116, 116, 0.1);
+}
+footer .footer-content p {
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+}
+footer .footer-content p a {
+  color: #3d83df;
+}
+footer .footer-content p a:hover {
+  text-decoration: underline;
+}
+footer {
+  border-top: 1px solid rgb(116, 116, 116, 0.1);
+}
+main {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+}
+main .first-section {
+  padding: 10px;
+}
+main .first-section img {
+  height: 40px;
+  width: 39px;
+}
+main .first-section h1 {
+  font-size: 2.125rem;
+  color: #00b39b;
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: -0.3px;
+  font-family: Work Sans, Arial, sans-serif;
+  margin: 1rem;
+}
+.second-section {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 50% auto;
+  margin: 40px;
+  text-align: left;
+}
+.second-section p {
+  align-items: left;
+  margin: 0.8em 0;
+  line-height: 1.75;
+  font-weight: 400;
+}
+.third-section {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 20px;
+}
+.third-section .patient {
+  background-color: #00b39b;
+}
+.third-section .doctor {
+  background-color: #3d83df;
+}
+.third-section .clinic {
+  background-color: rgb(3, 7, 39);
+}
+.third-section .clinic,
+.doctor,
+.patient {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 20px;
+  height: 311px;
+  width: 80%;
+  text-align: left;
+}
+.third-section p,
+h3,
+option,
+label {
+  color: white;
+}
+.third-section img {
+  height: 24px;
+  width: 24px;
+}
